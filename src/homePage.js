@@ -12,6 +12,7 @@ const HomePage = () => {
             
                 <div className="w-full md:w-6/12 ">
                     <img src=""/>
+                    <p>helLO</p>
                 </div>
             </div>
         </>
