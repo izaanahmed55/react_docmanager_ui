@@ -11,7 +11,7 @@ const LoginForm = () => {
         e.preventDefault();
 
         if(email && password){
-            console.log('inside')
+            // console.log('inside')
             const newEntry = {id: new Date().getTime().toString(), email: email, password: password};
             console.log(newEntry);
             setAllEntry([...allEntry, newEntry]);
