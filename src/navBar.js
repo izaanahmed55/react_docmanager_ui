@@ -15,7 +15,7 @@ const NavBar = () => {
                         <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
                     </svg>
 
-                    <Link to="/homepage"> <span className="text-white text-xl font-bold"> DocManager </span> </Link>
+                    <Link to="/"> <span className="text-white text-xl font-bold"> DocManager </span> </Link>
                 </div>
                 
                 <div className="block lg:hidden">

@@ -10,18 +10,13 @@ function App() {
   return <BrowserRouter>
     <NavBar/>
     <Routes>
-      <Route path='/homepage' element={<HomePage/>}/>
+      <Route path='/' element={<HomePage/>}/>
       <Route path='/upload' element={<Upload/>}/>
       <Route path='/loginform' element={<LoginForm/>}/>
       <Route path='/signupform' element={<SignUpForm/>}/>
     </Routes>
   </BrowserRouter>
       
-      // <NavBar/>
-      // <LoginForm/> 
-      // <SignUpForm/>
-      // <HomePage/>
-      // <Upload/>
 }
 
 export default App;
