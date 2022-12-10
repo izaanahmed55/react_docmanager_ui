@@ -1,6 +1,5 @@
 body{
-  background-color:#0e153a;
-  /* background: linear-gradient(to top left, #33ccff 0%, #f799ff 100%); */
+  background: #071a52;
   background-attachment: fixed;
   font-family: Lucida Sans Unicode;
 }
@@ -46,7 +45,14 @@ body{
 }
 
 .bg-clr{
-  background: linear-gradient(to top left, #29a4cd 0%, #ff99cc 100%);
+  background: #3d5af1;
 }
 
+.formlabels{
+  color: #3d5bf1b0;
+}
+
+.gradient1{
+  color: linear-gradient(to right, rgb(127, 127, 213), rgb(134, 168, 231), rgb(145, 234, 228));
+}
 

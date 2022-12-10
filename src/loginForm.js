@@ -29,12 +29,12 @@ const LoginForm = () => {
   return (
     <>  
     <center>
-        <div className='bg-white py-20 my-10 w-2/6 rounded-xl'>
-            <h2 className='text-2xl font-bold'> LOGIN </h2>
+        <div className='bg-white py-20 my-10 w-1/4 rounded-xl'>
+            <h2 className='text-2xl p-7 font-bold'> LOGIN </h2>
 
             <form action='' onSubmit={submitForm}>
 
-                <div className='text-gray-500 font-semibold text-base mt-5'>
+                <div className='formlabels font-semibold text-base mt-5'>
                     <label htmlFor='email'> Email </label>
                 </div>
 
@@ -44,7 +44,7 @@ const LoginForm = () => {
                     onChange={(e) => setEmail(e.target.value)}/>
                 </div>
 
-                <div className='text-gray-500 font-semibold text-base mt-5'>
+                <div className='formlabels font-semibold text-base mt-5'>
                     <label htmlFor='password'> Password </label>
                 </div>
 
@@ -54,7 +54,7 @@ const LoginForm = () => {
                     onChange={(e) => setPassword(e.target.value)}/>
                 </div>
                 
-                <button className='bg-clr my-10 rounded-2xl px-14 py-1 text-gray-200 font-semibold' type='submit'> Login </button>
+                <button className='bg-clr my-10 rounded-2xl px-14 py-1 text-white font-semibold' type='submit'> Login </button>
                 
                 <br></br>
                 <a href='#' className='underline text-xs'>forgot password?</a>

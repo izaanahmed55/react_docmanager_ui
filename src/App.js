@@ -4,19 +4,24 @@ import NavBar from './navBar';
 import SignUpForm from './signUpForm';
 import HomePage from './homePage';
 import Upload from './upload';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
+  return <BrowserRouter>
+    <NavBar/>
+    <Routes>
+      <Route path='/homepage' element={<HomePage/>}/>
+      <Route path='/upload' element={<Upload/>}/>
+      <Route path='/loginform' element={<LoginForm/>}/>
+      <Route path='/signupform' element={<SignUpForm/>}/>
+    </Routes>
+  </BrowserRouter>
       
-      <NavBar/>
-      {/* <LoginForm/>  */}
-      {/* <SignUpForm/> */}
-      {/* <HomePage/> */}
-      <Upload/>
-
-    </div>
-  );
+      // <NavBar/>
+      // <LoginForm/> 
+      // <SignUpForm/>
+      // <HomePage/>
+      // <Upload/>
 }
 
 export default App;
