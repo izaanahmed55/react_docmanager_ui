@@ -3,6 +3,7 @@ import LoginForm from './loginForm';
 import NavBar from './navBar';
 import SignUpForm from './signUpForm';
 import HomePage from './homePage';
+import Upload from './upload';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <NavBar/>
       {/* <LoginForm/>  */}
       {/* <SignUpForm/> */}
-      <HomePage/>
-    
+      {/* <HomePage/> */}
+      <Upload/>
+
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
     return(
         <>
-            <nav className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400-100 flex items-center justify-between flex-wrap p-4">
+            <nav className="flex items-center justify-between flex-wrap p-4 h-[20px]">
                 
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                     
@@ -34,7 +34,7 @@ const NavBar = () => {
                     </a>
                     
                     <a href="#" className="block lg:inline-block lg:mt-0 text-gray-100 hover:text-gray-100 mr-6">
-                        About
+                        Upload
                     </a>
                     </div>
                     
