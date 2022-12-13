@@ -29,8 +29,8 @@ const LoginForm = () => {
   return (
     <>  
     <center>
-        <div className='bg-white py-20 my-10 w-1/4 rounded-xl'>
-            <h2 className='text-2xl p-7 font-bold'> LOGIN </h2>
+        <div className='pb-5 bg-white lg:py-20 mx-8 my-8 lg:my-10 lg:w-1/4 rounded-xl'>
+            <h2 className='text-2xl lg:p-5 p-7 font-bold'> LOGIN </h2>
 
             <form action='' onSubmit={submitForm}>
 

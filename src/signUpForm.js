@@ -33,11 +33,12 @@ const SignUpForm = () => {
     return(
         <>
             <center>
-                <div className="bg-white py-20 my-10 w-1/4 rounded-xl">
+                <div className="bg-white lg:py-20 lg:my-10 mx-6 my-10 lg:w-1/4 rounded-xl">
                     
                     <h2 className='text-2xl p-7 font-bold'> SIGN UP </h2>
                         
                         <form action="" onSubmit={handleSubmit}>
+                            
                             <div className='formlabels font-semibold text-base mt-5'>
                                 <label htmlFor="username"> Full Name </label>
                             </div>
@@ -68,7 +69,7 @@ const SignUpForm = () => {
 
                             <button className='bg-clr my-10 rounded-2xl px-14 py-1 text-white font-semibold' type='submit'> Sign Up </button>
                                     
-                    </form>
+                        </form>
                 </div>
 
                 <div>
