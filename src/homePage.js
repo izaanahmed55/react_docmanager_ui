@@ -4,9 +4,9 @@ import React from "react";
 const HomePage = () => {
     return (
         <>
-            <div className="lg:h-[calc(90vh-18px)] lg:mx-20 mx-8 lg:my-5 my-16 md:flex gap-6 items-center justify-center">
+            <div className="lg:h-[calc(90vh-18px)] lg:mx-20 mx-8 lg:my-5 my-16 md:flex gap-6 items-center ml-4 justify-center">
                 <div className="">
-                    <p className="text-blue-300 font-bold text-3xl lg:w-full lg:text-6xl">Innovative solution for your business</p>
+                    <p className="text-blue-300 font-bold text-4xl lg:w-full lg:text-6xl">Innovative solution for your business</p>
                     <p className="text-white lg:text-5xl text-4xl pt-5">A better way to</p>
                     <p className="text-white text-bold lg:text-4xl text-2xl pt-2">transform your document</p>
                     
@@ -17,7 +17,7 @@ const HomePage = () => {
 
                 </div>
         
-            <div className="lg:flex lg:flex-nowrap lg:gap-6 lg:w-1/2 w-3/5 lg:mt-0 mt-7 items-center justify-center">
+            <div className="lg:flex lg:flex-nowrap lg:gap-6 lg:w-1/2 w-3/5 lg:mt-0 mt-7 items-left justify-center">
                 <img src="./images/black-and-white.png"/>
                 {/* <img src={bg}/> */}
             </div>

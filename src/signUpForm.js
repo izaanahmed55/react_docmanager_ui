@@ -29,7 +29,6 @@ const SignUpForm = () => {
         setUserRegistration({fullname: "", email: "", phone: "", password: ""})
     }
 
-
     return(
         <>
             <center>
