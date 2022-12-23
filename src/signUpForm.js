@@ -77,7 +77,7 @@ const SignUpForm = () => {
                             const {fullname, email, phone, password} = currElem;
 
                             return (
-                                <div className='showDataStyle'>
+                                <div className='text-[white] showDataStyle'>
                                     <p>Fullname: {fullname} Email: {email} Phone:{phone} Password: {password}</p>
                                 </div>   
                             )

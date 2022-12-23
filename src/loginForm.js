@@ -94,7 +94,7 @@ const LoginForm = () => {
                     const {id, email, password} = curElem;
                     
                     return (
-                        <div className='showDataStyle' key={id}>
+                        <div className='text-[white] showDataStyle' key={id}>
                             <p>Id: {id} Email: {email} Password: {password}</p>
                         </div>
                     )
